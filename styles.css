@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    font-family: 'Exo', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar img {
+    width: 150px;
+    height: 60px;
+}
+
+.navbar {
+    background-color: rgba(98, 192, 255, 0.37);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    position: fixed;
+    width: 100%;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 25px;
+}
+
+nav ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+    color: white;
+    border-bottom: solid 2px;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 40px;
+    background-color: blanchedalmond;
+}
+
+.texto {
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.imagem {
+    text-align: center;
+}
+
+.servicos {
+    background-color: rgb(209, 158, 158);
+    height: 500px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.contatos {
+    height: 500px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(204, 179, 228);
+    padding-top: 50px;
+}
+
+.quemsomos {
+    height: 500px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(208, 236, 167);
+    padding-top: 50px;
+}
+
+.localizacao {
+    height: 700px;
+    background-color: rgb(221, 204, 172);
+    padding-top: 50px;
+}
+
+.localizacao h1 {
+    text-align: center;
+}
+
+.localizacao div {
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.localizacao div p {
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+.localizacao img {
+    width: 650px;
+    height: 460px;
+    padding-top: 50px;
+}
+
+.login {
+    height: 60px;
+    background-color: blanchedalmond;
+    display: flex;
+    
+}
+
+.login h1{
+    padding-top: 11px;
+    padding-left: 300px;
+}
+
+.login form{
+    padding-top: 20px;
+    padding-left: 10px;
+    display: flex;
+}
+
+.login form button{
+    width: 100px;
+    height: 15px;
+}
